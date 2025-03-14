@@ -7,6 +7,11 @@ This mod does not affect compasses, maps, or other tracking-related items. **Onl
 
 ---
 
+## Download Instructions
+
+1. Download directly from GitHub. To do so, locate **releases** section, and select the very top one. For example: HideNames-Fabric-1.21-alpha-1.0.jar. 
+2. Download from https://modrinth.com/mod/hide-names-fabric
+
 ## ⚠️ Mod Status: Under Construction (Alpha)
 
 This mod is currently under development and is in an **alpha state**.  
