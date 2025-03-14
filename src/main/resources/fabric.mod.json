@@ -3,9 +3,9 @@
 	"id": "hide-names-fabric",
 	"version": "${version}",
 	"name": "Hide Names Fabric",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Hides UUID",
 	"authors": [
-		"Me!"
+		"Mateusz Podeszwa"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
