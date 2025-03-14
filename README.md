@@ -13,16 +13,16 @@ This mod is currently under development and is in an **alpha state**.
 You may download and test it, but please note that it might be unstable, and I hold no responsibility for any issues.
 
 ### Current Version
-- **Version:** `alpha-0.1`
-- **Status:** `Unplayable`
+- **Version:** `alpha-1.0`
+- **Status:** `Works as Intended` - The mod works perfectly fine, I am still looking for adding new features such as: command toggle for server admins, friend/team lists which will allow team members to see each other. And thus the alpha badge.
 
-### Port to Fabric
+### Port to Forge
 NO
 
 ### Port to older / newer versions
 YES.
 
-My plan encompasses versions 1.20 up to whatever the newest version is available. 
+My plan encompasses versions from 1.20 up to whatever the newest version is available. 
 <br />
 _Why? - Because there are similar mods for versions 1.19 and lower._
 
@@ -38,7 +38,7 @@ This is my first Fabric API-based project, and I'm actively learning. Developmen
 
 Feel free to reach out through:
 
-- [GitHub Issues](#) *(recommended)*
+- [GitHub Issues](https://github.com/MateuszPodeszwa/Hide-Names-Fabric-Mod-1.21/issues) *(recommended)*
 - Direct message via GitHub
 - [Patreon](https://www.patreon.com/c/mateuszpodeszwa) *(Support me!)*
 
@@ -60,6 +60,22 @@ For a mod built for Minecraft 1.20.4 using Fabric API, designed to implement a b
 
 ```
 bucket-system_Fabric-1.20.4
+```
+
+## 📬 JAR Naming Convention
+
+Mod files should follow the naming pattern:
+
+```
+name-modloaderapi-MCversion-state-fileVersion
+```
+
+**Example:**
+
+For a mod built for Minecraft 1.20.4 using Fabric API, designed to implement a bucket system in the alpha state:
+
+```
+BucketReworked-Fabric-1.20.4-alpha-1.0
 ```
 
 ---
