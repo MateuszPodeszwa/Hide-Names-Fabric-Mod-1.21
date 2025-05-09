@@ -7,10 +7,56 @@ This mod does not affect compasses, maps, or other tracking-related items. **Onl
 
 ---
 
-## Download Instructions
+## Mod Download Instructions
 
 1. Download directly from GitHub. To do so, locate **releases** section, and select the very top one. For example: HideNames-Fabric-1.21-alpha-1.0.jar. 
 2. Download from https://modrinth.com/mod/hide-names-fabric
+
+## Developer Download Instructions
+1. Clone the repository using git clone or by any other means.
+2. Ensure you have the **JDK 24** installed.
+3. Ensure your IDE and project are set up for **Java 24**.
+4. Ensure you have Gradle **8.14** installed.
+5. If there is .gradle, .idea or build folders in the root directory, delete them.
+
+---
+
+In the case of any issues, please try to follow these steps:
+- Before you do anything, double check Java version. It should be **Java 24** for the Gradle version **8.14**. If you are using **IntelliJ IDEA**, in the project view select ``Ctrl+Shift+Alt+S``.
+- Check Run/Debug Configuration if it is set to **Java 24**, `-cp Hide-Names-Fabric-1.21.main` with class `net.fabricmc.devlaunchinjector.Main`.
+
+## Error Troubleshooting
+
+Those are some common errors and their solutions that I encountered while developing this mod. To add more, please create an issue on GitHub.
+
+```
+net.fabricmc.loom.util.download.DownloadException: Failed download after 3 attempts
+```
+
+- **Check if you have a stable internet connection.**
+- **Delete** the **.gradle** folder in your project's root directory. 
+- Navigate to **C:\%USERPROFILE%\.gradle\caches\fabric-loom** and delete its contents.
+- Check for Antivirus or Firewall Interference
+  Security software can sometimes block Gradle from accessing external servers. Temporarily disable your antivirus or firewall and attempt to rebuild the project.
+
+```
+dev-launch-injector in pass-through mode, missing or unreadable config file
+```
+- **Regenerate** the launch.cfg file by running this command `./gradlew genSources`. You can also select the `genSources` task in your IDE and run it.
+- **Delete and reimport project** **configuration** (InteliJ IDEA).
+  - Close IntelliJ IDEA. 
+  - Navigate to your project's root directory. 
+  - Delete the .idea folder and all .iml files. 
+  - Reopen IntelliJ IDEA and select Open. 
+  - Choose your project's **build.gradle** file to reimport the project.
+- **Check Run Configurations**: Ensure that the Main class is set to `net.fabricmc.devlaunchinjector.Main` and Verify that the Module classpath is correctly set to your project's main module.
+- **Clean and Refresh Gradle Project**: You can run `./gradlew clean` or use the clean task in your IDE to clean the project. After that, refresh the Gradle project to ensure all dependencies are correctly resolved. 
+- **Manually Delete loom-cache**. If the issue persists, manually deleting the loom-cache directory can help:
+  - Navigate to your project's .gradle directory. 
+  - Delete the loom-cache folder. 
+  - Rebuild your project using Gradle to regenerate the cache.
+
+
 
 ## ⚠️ Mod Status: Under Construction (Alpha)
 
