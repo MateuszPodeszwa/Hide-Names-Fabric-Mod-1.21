@@ -24,8 +24,8 @@ gradle-app.setting
 .classpath
 
 #Minecraft Folder
-/run/saves/
-/run/logs/
+run/saves
+run/logs
 
 # IDE specific files (add your IDE here)
 .idea/
