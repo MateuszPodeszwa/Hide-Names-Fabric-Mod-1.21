@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "net.mc121.hide_names_fabric.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin",
+		"EntityRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
