@@ -1,6 +1,9 @@
+# Gradle
 .gradle
+
 **/build/
 !src/**/build/
+build
 
 # Ignore Gradle GUI config
 gradle-app.setting
@@ -23,3 +26,7 @@ gradle-app.setting
 #Minecraft Folder
 /run/saves/
 /run/logs/
+
+# IDE specific files (add your IDE here)
+.idea/
+*.iml
