@@ -1,6 +1,15 @@
-IMPORTANT!
-I HAVE MOVED TO C# PROGRAMMING. THIS PROJECT, AS ANYTHING JAVA RELATED, IS ON HOLD. I WILL GET BACK TO IT IN THE FUTURE? MAY BE MONTHS, MAY BE YEARS. I ACTUALLY LIKE C#.  
 
+---
+
+**Why I'm Pausing My Minecraft Mod**
+
+To fully understand my motivation, you need a little context. I’ve always been a huge Minecraft fan, and I finally found the courage to start modding when I began university in 2024. My first module was in Java, which was perfect—I could study for school while working on my passion project.
+
+But things have changed. My university course has moved on to C#, and honestly, I prefer it. The workload is getting intense, and I can’t split my focus between Java and C# without burning out or getting confused. I want to be great at what I do, and right now, that means dedicating 100% of my attention to C#.
+
+I still love modding, and I will definitely finish this project with all the planned features in the future. But for now, I’m putting it on the shelf until around 2027/2028. Unless my professors suddenly switch us back to Java (which I hope they don’t, because C# is great), I’m staying focused on .NET.
+
+---
 
 # The <u>**Hide Names**</u> Fabric Mod (1.21)
 
